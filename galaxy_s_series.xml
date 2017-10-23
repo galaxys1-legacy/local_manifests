@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Vendor Blobs -->
+  <project name="galaxys1-resurrected/proprietary_vendor_samsung" path="vendor/samsung"  remote="github" revision="aosp-7.1" clone-depth="1" />
+
+  <!-- Device Trees -->
+  <project name="galaxys1-resurrected/android_device_samsung_galaxysmtd" path="device/samsung/galaxysmtd" remote="github" revision="lineage-15.0" />
+
+  <!-- Galaxy S Common Repos -->
+  <project name="galaxys1-resurrected/android_device_samsung_aries-common" path="device/samsung/aries-common" remote="github" revision="lineage-15.0" />
+  <project name="galaxys1-resurrected/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="android-6.0" />
+  <project name="galaxys1-resurrected/android_hardware_samsung" path="hardware/samsung" remote="github" revision="aosp-7.1" />
+
+  <!-- Kernel Repo -->
+  <project name="galaxys1-resurrected/android_kernel_samsung_aries" sync-c="true" path="kernel/samsung/aries" remote="github" revision="android-7.1" />
+
+</manifest>
