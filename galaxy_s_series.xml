@@ -13,6 +13,9 @@
   <project name="galaxys1-resurrected/android_hardware_samsung" path="hardware/samsung" remote="github" revision="aosp-7.1" />
 
   <!-- Kernel Repo -->
-  <project name="galaxys1-resurrected/android_kernel_samsung_aries" sync-c="true" path="kernel/samsung/aries" remote="github" revision="android-7.1" />
+  <project name="galaxys1-resurrected/android_kernel_samsung_aries" sync-c="true" path="kernel/samsung/aries" remote="github" revision="lineage-15.0" />
+
+  <!-- Busybox -->
+<!--   <project name="LineageOS/android_external_busybox" sync-c="true" path="external/busybox" remote="github" revision="cm-14.1" /> -->
 
 </manifest>
