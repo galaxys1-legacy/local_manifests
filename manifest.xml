@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="bit_bucket" fetch="ssh://git@bitbucket.org:" />
+
+  <!-- Vendor Blobs -->
+  <project name="galaxys1-nougat/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="aosp-7.1" />
+  <!-- Device Trees -->
+  <project name="galaxys1-nougat/android_device_samsung_galaxysmtd" path="device/samsung/galaxysmtd" remote="github" revision="cm-14.1" />
+  <!-- Galaxy S Common Repos -->
+  <project name="galaxys1-nougat/android_device_samsung_aries-common" path="device/samsung/aries-common" remote="github" revision="cm-14.1" />
+  <project name="galaxys1-nougat/android_hardware_samsung-exynos3" path="hardware/samsung-exynos3" remote="github" revision="cm-14.1" /> 
+
+  <!-- Strings for CMActions--> 
+</manifest>
